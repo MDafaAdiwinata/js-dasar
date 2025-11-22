@@ -64,6 +64,48 @@
 
 // 7 Slice (Mengambil beberapa array untuk di jadikan array baru)
 // slice(awal, akhir)
-const hari = ["senin", "selasa", "rabu", "kamis"];
-const newHari = hari.slice(1, 3);
-console.log(newHari.join(" "));
+// const hari = ["senin", "selasa", "rabu", "kamis"];
+// const newHari = hari.slice(1, 3);
+// console.log(newHari.join(" "));
+
+// 8 ForEach
+// Perulangan untuk menampilkan isi dari Array
+// const hari = ["senin", "selasa", "rabu", "kamis"];
+// hari.forEach(function(n) {
+//     console.log(n)
+// } )
+// hari.forEach(function(n, i) {
+//     console.log("hari ke - " + i + " adalah hari " + n)
+// })
+
+// 9 Map
+// membuat array baru dengan menerapkan sebuah fungsi ke setiap elemen dari array asli
+// let angka = [1, 2, 3, 4, 5];
+// let angkaBaru = angka.map(function(e) {
+//     return e * 2;
+// })
+// console.log(angkaBaru);
+
+// 10 Sort
+// Untuk mengurutkan isi dari array, supaya terurut
+// let angka = [33, 42, 54, 80, 2, 0];
+// angka.sort(function(a, b) {
+//     return a-b;
+// });
+// console.log(angka.join(" "));
+
+// 11 Filter (bisa mengembalikan semua nilai)
+// Mencari nilai array dan mengembalikkan dalam bentuk array
+// let angka = [1, 2, 3, 5, 6, 7, 8, 9, 10];
+// let angkaBaru = angka.filter(function(n) {
+//     return n >= 5;
+// })
+// console.log(angkaBaru);
+
+// 12 Find (Hanya menemukan/mengembalikan satu nilai)
+// Yang berfungsi untuk mencari suatu nilai dari array
+// let angka = [1, 2, 3, 5, 6, 7, 8, 9, 10];
+// let angkaBaru = angka.filter(function(n) {
+//     return n >= 5 && n <= 8;
+// })
+// console.log(angkaBaru);
